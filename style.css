@@ -1,0 +1,20 @@
+h3 {
+    font-size: 25px !important;
+}
+.btn-success:hover
+{
+    background-color: aqua;
+}
+canvas {
+    animation-name: adi;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+@keyframes adi {
+    from{box-shadow: 1px 1px 50px cyan ;}
+    to{box-shadow: 1px 1px 50px greenyellow ;}
+}
+button {
+    margin-bottom: 20px;
+}
